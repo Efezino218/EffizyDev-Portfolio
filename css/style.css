@@ -323,7 +323,6 @@ figure figcaption {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
   clear: both;
 }
 
@@ -541,21 +540,6 @@ body.offcanvas .colorlib-nav-toggle {
   display: block;
 }
 
-@media screen and (max-width: 768px) {
-
-  .colorlib-experience,
-  .colorlib-skills,
-  .colorlib-education,
-  .colorlib-blog,
-  .colorlib-work,
-  .colorlib-about,
-  .colorlib-services,
-  .colorlib-contact {
-    padding-top: 5em;
-    padding-bottom: 8em;
-  }
-}
-
 .author-img {
   background-size: cover;
   background-position: center;
@@ -574,12 +558,6 @@ body.offcanvas .colorlib-nav-toggle {
 
 .colorlib-heading span {
   display: block;
-}
-
-@media screen and (max-width: 768px) {
-  .colorlib-heading {
-    margin-bottom: 3em;
-  }
 }
 
 .heading-meta {
