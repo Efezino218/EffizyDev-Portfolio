@@ -359,6 +359,16 @@ figure figcaption {
     right: 20px;
     top: 100px;
   }
+
+  #colorlib-hero li {
+    height: inherit;
+    /* Reduce height for medium screens */
+  }
+
+  #colorlib-hero div.bg-overlay {
+    height: inherit;
+    /* Reduce height for medium screens */
+  }
 }
 
 #colorlib-hero .flexslider .flex-control-nav li {
@@ -561,11 +571,6 @@ body.offcanvas .colorlib-nav-toggle {
   display: block;
 }
 
-@media screen and (max-width: 768px) {
-  .colorlib-heading {
-    margin-bottom: 3em;
-  }
-}
 
 .heading-meta {
   margin-bottom: 15px;
